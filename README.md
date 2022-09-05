@@ -12,3 +12,5 @@ Sunucu Bilgileri
 Sunucu Tanıtım Bölmesi
 Özel Tasarım
 Oyun Açılırken Konsol ve Yüklenme Barı
+Özel Açılış efektleri
+İsim Doğrulama Apisi
