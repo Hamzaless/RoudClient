@@ -16,19 +16,11 @@ namespace RoudClient
         [STAThread]
         static void Main()
         {
-            WebClient webclient = new WebClient();
-            if (!webclient.DownloadString("https://spanel.syroex.com/kontrol.txt").Contains("1"))
-            {
+            
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new RoudClient());
-            }
-            else
-            {
-                MessageBox.Show("LAUNCHER HAMZALESS TARAFINDAN KULLANIM DIŞI EDİLMİŞTİR | Developer: Hamzaless#8267 ile iletişime geçiniz!", "Launcher Devre Dışı | Developer: Hamzaless#8267 ile iletişime geçiniz!");
-            }
-
-               
+                
         }
     }
 }
